@@ -30,6 +30,8 @@
 		ECC9A6211D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */; };
 		ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */; };
 		ECCFC3001D97AF1B00D2AA99 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */; };
+		ECCFC3021D97B83C00D2AA99 /* QuartzCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */; };
+		ECCFC3041D97B8E700D2AA99 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3031D97B8E700D2AA99 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ican'tbelievetheterriblething.jpg"; sourceTree = "<group>"; };
 		ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzCoreViewController.swift; sourceTree = "<group>"; };
+		ECCFC3031D97B8E700D2AA99 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 		ECB944151D93085B00CA6452 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				ECCFC3031D97B8E700D2AA99 /* image.png */,
 				ECB944161D93085B00CA6452 /* AppDelegate.swift */,
 				ECB944181D93085B00CA6452 /* ViewController.swift */,
 				ECB944441D93B04D00CA6452 /* VCexPickerView.swift */,
@@ -137,6 +142,7 @@
 				ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */,
 				ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */,
 				ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */,
+				ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */,
 				ECB9441A1D93085B00CA6452 /* Main.storyboard */,
 				ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */,
 				ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */,
@@ -302,6 +308,7 @@
 				ECBD27A01D9502C500DEB0E1 /* 4.png in Resources */,
 				ECB9441C1D93085B00CA6452 /* Main.storyboard in Resources */,
 				ECBD27A11D9502C500DEB0E1 /* 5.png in Resources */,
+				ECCFC3041D97B8E700D2AA99 /* image.png in Resources */,
 				ECBD279F1D9502C500DEB0E1 /* 3.png in Resources */,
 				ECBD279D1D9502C500DEB0E1 /* 1.png in Resources */,
 			);
@@ -330,6 +337,7 @@
 			files = (
 				ECBD27921D93C1C500DEB0E1 /* DatePickerViewController.swift in Sources */,
 				ECB944191D93085B00CA6452 /* ViewController.swift in Sources */,
+				ECCFC3021D97B83C00D2AA99 /* QuartzCoreViewController.swift in Sources */,
 				ECBD27A51D9502F600DEB0E1 /* ImageViewController.swift in Sources */,
 				ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */,
 				ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */,

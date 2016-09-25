@@ -91,6 +91,12 @@ class ViewController: UIViewController {
         self.present(WVC, animated: true, completion: nil)
     }
     
+    @IBAction func QuartzCoreAction(_ sender: AnyObject) {
+        
+        let QCVC = self.storyboard?.instantiateViewController(withIdentifier: "QuartzCoreViewController") as! QuartzCoreViewController
+        self.present(QCVC, animated: true, completion: nil)
+    }
+    
     
 }
 

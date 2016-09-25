@@ -168,6 +168,14 @@
                                     <action selector="WebViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45P-8Q-jk6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjy-Ek-BWX">
+                                <frame key="frameInset" minX="147" minY="396" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="QuartzCore"/>
+                                <connections>
+                                    <action selector="QuartzCoreAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="74t-r6-v8s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -207,6 +215,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6P-jx-Gx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-639.20000000000005" y="-45.42728635682159"/>
+        </scene>
+        <!--Quartz Core View Controller-->
+        <scene sceneID="YTs-ip-NGx">
+            <objects>
+                <viewController storyboardIdentifier="QuartzCoreViewController" id="6ut-5d-J4i" customClass="QuartzCoreViewController" customModule="UserInterface" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ang-dW-4Tu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oia-xJ-ysf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="27C-zL-Y3r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="179" translatesAutoresizingMaskIntoConstraints="NO" id="38H-qu-2ZT">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="FcZ-X5-6BB"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" red="0.50452910691131381" green="0.34840402001390847" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="circleAction:" destination="6ut-5d-J4i" eventType="valueChanged" id="QxE-dq-DsL"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="38H-qu-2ZT" firstAttribute="centerX" secondItem="27C-zL-Y3r" secondAttribute="centerX" id="B8b-ug-MSK"/>
+                            <constraint firstItem="38H-qu-2ZT" firstAttribute="centerY" secondItem="27C-zL-Y3r" secondAttribute="centerY" id="du2-H0-hUf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxA-0g-g1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-641" y="616"/>
         </scene>
         <!--Date Picker View Controller-->
         <scene sceneID="cOB-QW-oP8">
