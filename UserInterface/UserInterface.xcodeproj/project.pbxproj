@@ -25,6 +25,10 @@
 		ECBD27A21D9502C500DEB0E1 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD279A1D9502C500DEB0E1 /* 6.png */; };
 		ECBD27A31D9502C500DEB0E1 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD279B1D9502C500DEB0E1 /* 7.png */; };
 		ECBD27A51D9502F600DEB0E1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */; };
+		ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */; };
+		ECBD27AB1D95B9AF00DEB0E1 /* Minions1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */; };
+		ECC9A6211D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */; };
+		ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		ECBD279A1D9502C500DEB0E1 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		ECBD279B1D9502C500DEB0E1 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollBarViewController.swift; sourceTree = "<group>"; };
+		ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Minions1.jpg; sourceTree = "<group>"; };
+		ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ican'tbelievetheterriblething.jpg"; sourceTree = "<group>"; };
+		ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +129,14 @@
 			children = (
 				ECB944161D93085B00CA6452 /* AppDelegate.swift */,
 				ECB944181D93085B00CA6452 /* ViewController.swift */,
+				ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */,
 				ECB944441D93B04D00CA6452 /* VCexPickerView.swift */,
 				ECBD27911D93C1C500DEB0E1 /* DatePickerViewController.swift */,
 				ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */,
+				ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */,
 				ECB9441A1D93085B00CA6452 /* Main.storyboard */,
+				ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */,
+				ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */,
 				ECBD27931D9502C500DEB0E1 /* Birds */,
 				ECB9441D1D93085B00CA6452 /* Assets.xcassets */,
 				ECB9441F1D93085B00CA6452 /* LaunchScreen.storyboard */,
@@ -281,6 +293,8 @@
 				ECBD279C1D9502C500DEB0E1 /* 0.png in Resources */,
 				ECB944211D93085B00CA6452 /* LaunchScreen.storyboard in Resources */,
 				ECB9441E1D93085B00CA6452 /* Assets.xcassets in Resources */,
+				ECBD27AB1D95B9AF00DEB0E1 /* Minions1.jpg in Resources */,
+				ECC9A6211D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg in Resources */,
 				ECBD27A21D9502C500DEB0E1 /* 6.png in Resources */,
 				ECBD27A01D9502C500DEB0E1 /* 4.png in Resources */,
 				ECB9441C1D93085B00CA6452 /* Main.storyboard in Resources */,
@@ -314,6 +328,8 @@
 				ECBD27921D93C1C500DEB0E1 /* DatePickerViewController.swift in Sources */,
 				ECB944191D93085B00CA6452 /* ViewController.swift in Sources */,
 				ECBD27A51D9502F600DEB0E1 /* ImageViewController.swift in Sources */,
+				ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */,
+				ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */,
 				ECB944451D93B04D00CA6452 /* VCexPickerView.swift in Sources */,
 				ECB944171D93085B00CA6452 /* AppDelegate.swift in Sources */,
 			);

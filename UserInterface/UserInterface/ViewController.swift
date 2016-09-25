@@ -72,5 +72,19 @@ class ViewController: UIViewController {
         self.present(IVC, animated: true, completion: nil)
     }
     
+    @IBAction func ScrollBarAction(_ sender: AnyObject) {
+        
+        let SBVC = self.storyboard?.instantiateViewController(withIdentifier: "ScrollBarViewController") as! ScrollBarViewController
+        self.present(SBVC, animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func ScrollViewAction(_ sender: AnyObject) {
+        
+        let SVC = self.storyboard?.instantiateViewController(withIdentifier: "ScrollViewController") as! ScrollViewController
+        self.present(SVC, animated: true, completion: nil)
+    }
+    
+    
 }
 
