@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="69.599999999999994" y="-706.59670164917543"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="ALS-R4-iVA">
             <objects>
-                <viewController id="hiS-A9-HXs" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebViewController" id="hiS-A9-HXs" customClass="WebViewController" customModule="UserInterface" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fN3-lx-Iv3"/>
                         <viewControllerLayoutGuide type="bottom" id="hzE-dt-kG7"/>
@@ -79,12 +79,26 @@
                     <view key="view" contentMode="scaleToFill" id="6yI-VX-8yr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q2X-Vt-pxB">
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.48500734069515206" green="0.51148477506339707" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hzE-dt-kG7" firstAttribute="top" secondItem="Q2X-Vt-pxB" secondAttribute="bottom" id="311-sH-cE8"/>
+                            <constraint firstItem="Q2X-Vt-pxB" firstAttribute="top" secondItem="6yI-VX-8yr" secondAttribute="top" id="7BR-pj-eMp"/>
+                            <constraint firstAttribute="trailing" secondItem="Q2X-Vt-pxB" secondAttribute="trailing" id="9zN-Je-0QY"/>
+                            <constraint firstItem="Q2X-Vt-pxB" firstAttribute="leading" secondItem="6yI-VX-8yr" secondAttribute="leading" id="mNB-wI-5Tx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="Q2X-Vt-pxB" id="kPz-Ed-Xhr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pgt-mc-yeg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="804" y="-707"/>
+            <point key="canvasLocation" x="804" y="-706.59670164917543"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -150,6 +164,9 @@
                                 <frame key="frameInset" minX="155" minY="358" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="WebView"/>
+                                <connections>
+                                    <action selector="WebViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45P-8Q-jk6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

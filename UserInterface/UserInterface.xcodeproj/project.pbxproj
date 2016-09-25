@@ -29,6 +29,7 @@
 		ECBD27AB1D95B9AF00DEB0E1 /* Minions1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */; };
 		ECC9A6211D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */; };
 		ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */; };
+		ECCFC3001D97AF1B00D2AA99 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Minions1.jpg; sourceTree = "<group>"; };
 		ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ican'tbelievetheterriblething.jpg"; sourceTree = "<group>"; };
 		ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +131,12 @@
 			children = (
 				ECB944161D93085B00CA6452 /* AppDelegate.swift */,
 				ECB944181D93085B00CA6452 /* ViewController.swift */,
-				ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */,
 				ECB944441D93B04D00CA6452 /* VCexPickerView.swift */,
 				ECBD27911D93C1C500DEB0E1 /* DatePickerViewController.swift */,
 				ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */,
 				ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */,
+				ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */,
+				ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */,
 				ECB9441A1D93085B00CA6452 /* Main.storyboard */,
 				ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */,
 				ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */,
@@ -332,6 +335,7 @@
 				ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */,
 				ECB944451D93B04D00CA6452 /* VCexPickerView.swift in Sources */,
 				ECB944171D93085B00CA6452 /* AppDelegate.swift in Sources */,
+				ECCFC3001D97AF1B00D2AA99 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

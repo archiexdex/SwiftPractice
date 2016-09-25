@@ -85,6 +85,12 @@ class ViewController: UIViewController {
         self.present(SVC, animated: true, completion: nil)
     }
     
+    @IBAction func WebViewAction(_ sender: AnyObject) {
+        
+        let WVC = self.storyboard?.instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
+        self.present(WVC, animated: true, completion: nil)
+    }
+    
     
 }
 
