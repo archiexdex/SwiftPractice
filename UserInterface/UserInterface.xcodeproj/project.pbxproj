@@ -16,22 +16,22 @@
 		ECB944371D93085B00CA6452 /* UserInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB944361D93085B00CA6452 /* UserInterfaceUITests.swift */; };
 		ECB944451D93B04D00CA6452 /* VCexPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB944441D93B04D00CA6452 /* VCexPickerView.swift */; };
 		ECBD27921D93C1C500DEB0E1 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27911D93C1C500DEB0E1 /* DatePickerViewController.swift */; };
-		ECBD279C1D9502C500DEB0E1 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27941D9502C500DEB0E1 /* 0.png */; };
-		ECBD279D1D9502C500DEB0E1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27951D9502C500DEB0E1 /* 1.png */; };
-		ECBD279E1D9502C500DEB0E1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27961D9502C500DEB0E1 /* 2.png */; };
-		ECBD279F1D9502C500DEB0E1 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27971D9502C500DEB0E1 /* 3.png */; };
-		ECBD27A01D9502C500DEB0E1 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27981D9502C500DEB0E1 /* 4.png */; };
-		ECBD27A11D9502C500DEB0E1 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27991D9502C500DEB0E1 /* 5.png */; };
-		ECBD27A21D9502C500DEB0E1 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD279A1D9502C500DEB0E1 /* 6.png */; };
-		ECBD27A31D9502C500DEB0E1 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD279B1D9502C500DEB0E1 /* 7.png */; };
 		ECBD27A51D9502F600DEB0E1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */; };
 		ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */; };
-		ECBD27AB1D95B9AF00DEB0E1 /* Minions1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */; };
-		ECC9A6211D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */; };
 		ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */; };
 		ECCFC3001D97AF1B00D2AA99 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */; };
 		ECCFC3021D97B83C00D2AA99 /* QuartzCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */; };
-		ECCFC3041D97B8E700D2AA99 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3031D97B8E700D2AA99 /* image.png */; };
+		ECCFC3591D98E92100D2AA99 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC34E1D98E92100D2AA99 /* 0.png */; };
+		ECCFC35A1D98E92100D2AA99 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC34F1D98E92100D2AA99 /* 1.png */; };
+		ECCFC35B1D98E92100D2AA99 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3501D98E92100D2AA99 /* 2.png */; };
+		ECCFC35C1D98E92100D2AA99 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3511D98E92100D2AA99 /* 3.png */; };
+		ECCFC35D1D98E92100D2AA99 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3521D98E92100D2AA99 /* 4.png */; };
+		ECCFC35E1D98E92100D2AA99 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3531D98E92100D2AA99 /* 5.png */; };
+		ECCFC35F1D98E92100D2AA99 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3541D98E92100D2AA99 /* 6.png */; };
+		ECCFC3601D98E92100D2AA99 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3551D98E92100D2AA99 /* 7.png */; };
+		ECCFC3611D98E92100D2AA99 /* Ican'tbelievetheterriblething.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3561D98E92100D2AA99 /* Ican'tbelievetheterriblething.jpg */; };
+		ECCFC3621D98E92100D2AA99 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3571D98E92100D2AA99 /* image.png */; };
+		ECCFC3631D98E92100D2AA99 /* Minions1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC3581D98E92100D2AA99 /* Minions1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,22 +67,22 @@
 		ECB944381D93085B00CA6452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB944441D93B04D00CA6452 /* VCexPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCexPickerView.swift; sourceTree = "<group>"; };
 		ECBD27911D93C1C500DEB0E1 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
-		ECBD27941D9502C500DEB0E1 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
-		ECBD27951D9502C500DEB0E1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		ECBD27961D9502C500DEB0E1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		ECBD27971D9502C500DEB0E1 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		ECBD27981D9502C500DEB0E1 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		ECBD27991D9502C500DEB0E1 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		ECBD279A1D9502C500DEB0E1 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
-		ECBD279B1D9502C500DEB0E1 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollBarViewController.swift; sourceTree = "<group>"; };
-		ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Minions1.jpg; sourceTree = "<group>"; };
-		ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ican'tbelievetheterriblething.jpg"; sourceTree = "<group>"; };
 		ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzCoreViewController.swift; sourceTree = "<group>"; };
-		ECCFC3031D97B8E700D2AA99 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		ECCFC34E1D98E92100D2AA99 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		ECCFC34F1D98E92100D2AA99 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		ECCFC3501D98E92100D2AA99 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		ECCFC3511D98E92100D2AA99 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		ECCFC3521D98E92100D2AA99 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		ECCFC3531D98E92100D2AA99 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		ECCFC3541D98E92100D2AA99 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		ECCFC3551D98E92100D2AA99 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		ECCFC3561D98E92100D2AA99 /* Ican'tbelievetheterriblething.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ican'tbelievetheterriblething.jpg"; sourceTree = "<group>"; };
+		ECCFC3571D98E92100D2AA99 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		ECCFC3581D98E92100D2AA99 /* Minions1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Minions1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,6 @@
 		ECB944151D93085B00CA6452 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
-				ECCFC3031D97B8E700D2AA99 /* image.png */,
 				ECB944161D93085B00CA6452 /* AppDelegate.swift */,
 				ECB944181D93085B00CA6452 /* ViewController.swift */,
 				ECB944441D93B04D00CA6452 /* VCexPickerView.swift */,
@@ -143,10 +142,8 @@
 				ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */,
 				ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */,
 				ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */,
+				ECCFC34C1D98E92100D2AA99 /* Images */,
 				ECB9441A1D93085B00CA6452 /* Main.storyboard */,
-				ECBD27AA1D95B9AF00DEB0E1 /* Minions1.jpg */,
-				ECC9A6201D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg */,
-				ECBD27931D9502C500DEB0E1 /* Birds */,
 				ECB9441D1D93085B00CA6452 /* Assets.xcassets */,
 				ECB9441F1D93085B00CA6452 /* LaunchScreen.storyboard */,
 				ECB944221D93085B00CA6452 /* Info.plist */,
@@ -172,17 +169,28 @@
 			path = UserInterfaceUITests;
 			sourceTree = "<group>";
 		};
-		ECBD27931D9502C500DEB0E1 /* Birds */ = {
+		ECCFC34C1D98E92100D2AA99 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				ECBD27941D9502C500DEB0E1 /* 0.png */,
-				ECBD27951D9502C500DEB0E1 /* 1.png */,
-				ECBD27961D9502C500DEB0E1 /* 2.png */,
-				ECBD27971D9502C500DEB0E1 /* 3.png */,
-				ECBD27981D9502C500DEB0E1 /* 4.png */,
-				ECBD27991D9502C500DEB0E1 /* 5.png */,
-				ECBD279A1D9502C500DEB0E1 /* 6.png */,
-				ECBD279B1D9502C500DEB0E1 /* 7.png */,
+				ECCFC34D1D98E92100D2AA99 /* Birds */,
+				ECCFC3561D98E92100D2AA99 /* Ican'tbelievetheterriblething.jpg */,
+				ECCFC3571D98E92100D2AA99 /* image.png */,
+				ECCFC3581D98E92100D2AA99 /* Minions1.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ECCFC34D1D98E92100D2AA99 /* Birds */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFC34E1D98E92100D2AA99 /* 0.png */,
+				ECCFC34F1D98E92100D2AA99 /* 1.png */,
+				ECCFC3501D98E92100D2AA99 /* 2.png */,
+				ECCFC3511D98E92100D2AA99 /* 3.png */,
+				ECCFC3521D98E92100D2AA99 /* 4.png */,
+				ECCFC3531D98E92100D2AA99 /* 5.png */,
+				ECCFC3541D98E92100D2AA99 /* 6.png */,
+				ECCFC3551D98E92100D2AA99 /* 7.png */,
 			);
 			path = Birds;
 			sourceTree = "<group>";
@@ -297,20 +305,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECBD27A31D9502C500DEB0E1 /* 7.png in Resources */,
-				ECBD279E1D9502C500DEB0E1 /* 2.png in Resources */,
-				ECBD279C1D9502C500DEB0E1 /* 0.png in Resources */,
+				ECCFC35F1D98E92100D2AA99 /* 6.png in Resources */,
+				ECCFC35D1D98E92100D2AA99 /* 4.png in Resources */,
+				ECCFC35E1D98E92100D2AA99 /* 5.png in Resources */,
+				ECCFC3601D98E92100D2AA99 /* 7.png in Resources */,
 				ECB944211D93085B00CA6452 /* LaunchScreen.storyboard in Resources */,
+				ECCFC3591D98E92100D2AA99 /* 0.png in Resources */,
+				ECCFC3611D98E92100D2AA99 /* Ican'tbelievetheterriblething.jpg in Resources */,
+				ECCFC35B1D98E92100D2AA99 /* 2.png in Resources */,
+				ECCFC35C1D98E92100D2AA99 /* 3.png in Resources */,
 				ECB9441E1D93085B00CA6452 /* Assets.xcassets in Resources */,
-				ECBD27AB1D95B9AF00DEB0E1 /* Minions1.jpg in Resources */,
-				ECC9A6211D96BAAC00DF770D /* Ican'tbelievetheterriblething.jpg in Resources */,
-				ECBD27A21D9502C500DEB0E1 /* 6.png in Resources */,
-				ECBD27A01D9502C500DEB0E1 /* 4.png in Resources */,
+				ECCFC35A1D98E92100D2AA99 /* 1.png in Resources */,
+				ECCFC3621D98E92100D2AA99 /* image.png in Resources */,
 				ECB9441C1D93085B00CA6452 /* Main.storyboard in Resources */,
-				ECBD27A11D9502C500DEB0E1 /* 5.png in Resources */,
-				ECCFC3041D97B8E700D2AA99 /* image.png in Resources */,
-				ECBD279F1D9502C500DEB0E1 /* 3.png in Resources */,
-				ECBD279D1D9502C500DEB0E1 /* 1.png in Resources */,
+				ECCFC3631D98E92100D2AA99 /* Minions1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
