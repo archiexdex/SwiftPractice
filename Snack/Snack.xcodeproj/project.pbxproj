@@ -16,7 +16,6 @@
 		ECCFC3441D98CEB100D2AA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC3431D98CEB100D2AA99 /* ViewController.swift */; };
 		ECCFC3481D98CEDC00D2AA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC3461D98CEDC00D2AA99 /* AppDelegate.swift */; };
 		ECCFC34B1D98D1C800D2AA99 /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC34A1D98D1C800D2AA99 /* Snack.swift */; };
-		ECCFC3651D99793D00D2AA99 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC3641D99793D00D2AA99 /* Foods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		ECCFC3431D98CEB100D2AA99 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECCFC3461D98CEDC00D2AA99 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCFC34A1D98D1C800D2AA99 /* Snack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
-		ECCFC3641D99793D00D2AA99 /* Foods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				ECCFC34A1D98D1C800D2AA99 /* Snack.swift */,
-				ECCFC3641D99793D00D2AA99 /* Foods.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,7 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCFC3651D99793D00D2AA99 /* Foods.swift in Sources */,
 				ECCFC3481D98CEDC00D2AA99 /* AppDelegate.swift in Sources */,
 				ECCFC3441D98CEB100D2AA99 /* ViewController.swift in Sources */,
 				ECCFC34B1D98D1C800D2AA99 /* Snack.swift in Sources */,

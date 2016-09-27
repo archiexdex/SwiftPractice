@@ -8,21 +8,18 @@
 
 import UIKit
 
-struct position {
-    var x : Int
-    var y : Int
-    
-    init( _x : Int , _y : Int) {
-        self.x = _x
-        self.y = _y
-    }
+enum Direction : Int {
+    case north
+    case east
+    case south
+    case west
 }
 
 class Snack: NSObject {
 
     // MARK: - Private Variable
     private var snackLength : Int!
-    private var snackBody   : [position]!
+    private var snackBody   : [(Int, Int)]!
     
     
     // MARK: - Singleton
@@ -43,28 +40,59 @@ class Snack: NSObject {
     }
     
     // MARK: - Private Function
-    private func getPos() -> position {
-        let pos = position(_x: Int(arc4random()), _y: Int(arc4random()) )
+    private func getPos() -> ( Int, Int ) {
+        let pos = ( Int(arc4random()) , Int(arc4random()) )
         return pos
     }
     
     // MARK: - Public Function
-    func eat( pos : position ) {
+    func eat( pos : (Int,Int) ) {
         
         // 1. Add a new body in the head
         snackBody.insert(pos, at: 0)
     }
     
-    func move( ) {
+    func move( way : Direction ) {
         
         // 1. Remove the last one
         let ptr = snackBody.count - 1
         snackBody.remove(at: ptr)
         
         // 2. Create a new body in the next step
+        let nPos : (Int, Int)!
+        let (headX, headY) = snackBody[0]
+        switch way {
+        case .east:
+            nPos = (headX + 1 , headY)
+        case .west:
+            nPos = (headX - 1 , headY)
+        case .north :
+            nPos = (headX , headY + 1)
+        case .south:
+            nPos = (headX , headY - 1)
+        }
         
         // 3. Insert new body into head
-        
+        snackBody.insert(nPos, at: 0)
     }
     
+    func isCollision( pos : (Int, Int) ) -> Bool {
+        
+        let head = snackBody[0] as (Int, Int)
+        return head == pos
+    }
+    
+    func isCollideSelf() -> Bool {
+        
+        let head = snackBody[0] as (Int ,Int)
+        
+        for ptr in 1..<snackBody.count {
+            //
+            if head == snackBody[ptr] {
+                return false
+            }
+        }
+        
+        return true
+    }
 }
