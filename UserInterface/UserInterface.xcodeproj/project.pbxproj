@@ -18,7 +18,10 @@
 		ECBD27921D93C1C500DEB0E1 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27911D93C1C500DEB0E1 /* DatePickerViewController.swift */; };
 		ECBD27A51D9502F600DEB0E1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */; };
 		ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */; };
+		ECC5A11A1D9AEC59009080CD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5A1191D9AEC59009080CD /* TableViewController.swift */; };
 		ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */; };
+		ECCBDE481D9BA1A4008B2B89 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBDE471D9BA1A4008B2B89 /* CustomTableViewCell.swift */; };
+		ECCBDE4A1D9BA63A008B2B89 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBDE491D9BA63A008B2B89 /* CollectionViewController.swift */; };
 		ECCFC3001D97AF1B00D2AA99 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */; };
 		ECCFC3021D97B83C00D2AA99 /* QuartzCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */; };
 		ECCFC3591D98E92100D2AA99 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCFC34E1D98E92100D2AA99 /* 0.png */; };
@@ -69,7 +72,10 @@
 		ECBD27911D93C1C500DEB0E1 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		ECBD27A41D9502F600DEB0E1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		ECBD27A61D95B89B00DEB0E1 /* ScrollBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollBarViewController.swift; sourceTree = "<group>"; };
+		ECC5A1191D9AEC59009080CD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		ECCBDE471D9BA1A4008B2B89 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		ECCBDE491D9BA63A008B2B89 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzCoreViewController.swift; sourceTree = "<group>"; };
 		ECCFC34E1D98E92100D2AA99 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 				ECC9A6221D96FD7900DF770D /* ScrollViewController.swift */,
 				ECCFC2FF1D97AF1B00D2AA99 /* WebViewController.swift */,
 				ECCFC3011D97B83C00D2AA99 /* QuartzCoreViewController.swift */,
+				ECC5A1191D9AEC59009080CD /* TableViewController.swift */,
+				ECCBDE471D9BA1A4008B2B89 /* CustomTableViewCell.swift */,
+				ECCBDE491D9BA63A008B2B89 /* CollectionViewController.swift */,
 				ECCFC34C1D98E92100D2AA99 /* Images */,
 				ECB9441A1D93085B00CA6452 /* Main.storyboard */,
 				ECB9441D1D93085B00CA6452 /* Assets.xcassets */,
@@ -343,9 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCBDE4A1D9BA63A008B2B89 /* CollectionViewController.swift in Sources */,
 				ECBD27921D93C1C500DEB0E1 /* DatePickerViewController.swift in Sources */,
 				ECB944191D93085B00CA6452 /* ViewController.swift in Sources */,
+				ECCBDE481D9BA1A4008B2B89 /* CustomTableViewCell.swift in Sources */,
 				ECCFC3021D97B83C00D2AA99 /* QuartzCoreViewController.swift in Sources */,
+				ECC5A11A1D9AEC59009080CD /* TableViewController.swift in Sources */,
 				ECBD27A51D9502F600DEB0E1 /* ImageViewController.swift in Sources */,
 				ECC9A6231D96FD7900DF770D /* ScrollViewController.swift in Sources */,
 				ECBD27A71D95B89B00DEB0E1 /* ScrollBarViewController.swift in Sources */,

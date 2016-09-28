@@ -97,6 +97,19 @@ class ViewController: UIViewController {
         self.present(QCVC, animated: true, completion: nil)
     }
     
+    @IBAction func TableViewAction(_ sender: AnyObject) {
+        
+        let PTR = self.storyboard?.instantiateViewController(withIdentifier: "TableViewController") as! TableViewController
+        self.present(PTR, animated: true, completion: nil)
+        
+    }
+    
+    @IBAction func CollectionViewAction(_ sender: AnyObject) {
+        
+        let PTR = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
+        self.present(PTR, animated: true, completion: nil)
+    }
+    
     
 }
 
