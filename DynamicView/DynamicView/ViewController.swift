@@ -91,7 +91,8 @@ class ViewController: UIViewController {
     }
     
     
-
+    // MARK: - IBAction
+    
     @IBAction func panGestureHandler(_ sender: UIPanGestureRecognizer) {
         //
         // 1. Get pan location
@@ -123,6 +124,11 @@ class ViewController: UIViewController {
         snapA.addBehavior(behavior)
     }
     
+    @IBAction func drawAction(_ sender: UIButton) {
+        
+        
+        
+    }
 
 }
 
