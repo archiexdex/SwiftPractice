@@ -34,6 +34,7 @@ class MyView: UIView {
         quadCurve(context: context)
         image(context: context)
         
+        
         // 4. Restore state
         context.restoreGState()
         
@@ -118,13 +119,14 @@ class MyView: UIView {
     
     func image( context : CGContext ) {
         
-        let image = UIImage(named: "roo.png")?.cgImage
+        let image = UIImage(named: "roo.png")
+        image?.draw(in: CGRect(x: 40, y: 600, width: 50, height: 50) )
         
         let ptr = CGRect(x: 150, y: 30, width: 150, height: 150)
-        context.draw(image!, in: ptr)
+        context.draw((image?.cgImage)!, in: ptr)
         
         let subRect = CGRect(x: 0, y: 0, width: 100, height: 100)
-        let subImg = image?.cropping(to: subRect)
+        let subImg = image?.cgImage?.cropping(to: subRect)
         let ptr2 = CGRect(x: 200, y: 300, width: 150, height: 150)
         context.draw(subImg!, in: ptr2)
         
