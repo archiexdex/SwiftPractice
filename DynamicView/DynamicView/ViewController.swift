@@ -123,12 +123,6 @@ class ViewController: UIViewController {
         snapA.removeAllBehaviors()
         snapA.addBehavior(behavior)
     }
-    
-    @IBAction func drawAction(_ sender: UIButton) {
-        
-        
-        
-    }
 
 }
 

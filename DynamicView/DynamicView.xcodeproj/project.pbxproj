@@ -10,6 +10,7 @@
 		EC7EA1D91D9D836C00E00793 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7EA1D81D9D836C00E00793 /* DrawViewController.swift */; };
 		EC7EA1DB1D9D865B00E00793 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7EA1DA1D9D865B00E00793 /* MyView.swift */; };
 		EC7EA1DD1D9DA31500E00793 /* roo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7EA1DC1D9DA31500E00793 /* roo.png */; };
+		EC7EA1DF1D9E77AE00E00793 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7EA1DE1D9E77AE00E00793 /* GestureViewController.swift */; };
 		ECCBDE5A1D9BB75D008B2B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBDE591D9BB75D008B2B89 /* AppDelegate.swift */; };
 		ECCBDE5C1D9BB75D008B2B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBDE5B1D9BB75D008B2B89 /* ViewController.swift */; };
 		ECCBDE5F1D9BB75D008B2B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCBDE5D1D9BB75D008B2B89 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		EC7EA1D81D9D836C00E00793 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		EC7EA1DA1D9D865B00E00793 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		EC7EA1DC1D9DA31500E00793 /* roo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roo.png; sourceTree = "<group>"; };
+		EC7EA1DE1D9E77AE00E00793 /* GestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		ECCBDE561D9BB75D008B2B89 /* DynamicView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCBDE591D9BB75D008B2B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCBDE5B1D9BB75D008B2B89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				EC7EA1DC1D9DA31500E00793 /* roo.png */,
 				ECCBDE591D9BB75D008B2B89 /* AppDelegate.swift */,
 				ECCBDE5B1D9BB75D008B2B89 /* ViewController.swift */,
+				EC7EA1DE1D9E77AE00E00793 /* GestureViewController.swift */,
 				EC7EA1DA1D9D865B00E00793 /* MyView.swift */,
 				EC7EA1D81D9D836C00E00793 /* DrawViewController.swift */,
 				ECCBDE5D1D9BB75D008B2B89 /* Main.storyboard */,
@@ -275,6 +278,7 @@
 				EC7EA1DB1D9D865B00E00793 /* MyView.swift in Sources */,
 				EC7EA1D91D9D836C00E00793 /* DrawViewController.swift in Sources */,
 				ECCBDE5C1D9BB75D008B2B89 /* ViewController.swift in Sources */,
+				EC7EA1DF1D9E77AE00E00793 /* GestureViewController.swift in Sources */,
 				ECCBDE5A1D9BB75D008B2B89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
