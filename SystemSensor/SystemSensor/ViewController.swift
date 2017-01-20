@@ -33,6 +33,12 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func startMap(_ sender: Any) {
+        let MVC = self.storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        self.present(MVC, animated: true, completion: nil)
+        
+        
+    }
 }
 
 extension ViewController : CLLocationManagerDelegate {
