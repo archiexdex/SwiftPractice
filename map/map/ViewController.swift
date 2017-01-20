@@ -29,18 +29,34 @@ class ViewController: UIViewController {
     }
     @IBAction func addAnn(_ sender: Any) {
         addAnnotation()
+        print("QQ")
     }
 
     func addAnnotation() {
         let ann = MKPointAnnotation()
         let location = lm.getLocation() as (Double, Double)
-        print(location)
-        print(lm.getCountry())
+        
         ann.coordinate = CLLocationCoordinate2DMake(location.0, location.1)
         ann.title = lm.getCountry()
         self.mapView.addAnnotation(ann)
     }
 
 }
-
+extension ViewController : MKMapViewDelegate {
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        //
+        
+        let view = MKPinAnnotationView.init(annotation: annotation, reuseIdentifier: "Pin")
+        
+        if (annotation.title)!! as String == "Taiwan" {
+            view.pinTintColor = .green
+//            print(view)
+//            print("@@")
+        }
+        view.canShowCallout = true
+        
+        return view
+    }
+}
 
