@@ -16,6 +16,7 @@
 		EC0A3F8B1E3230C70048CB15 /* mapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A3F8A1E3230C70048CB15 /* mapUITests.swift */; };
 		EC0A3F9A1E3233CB0048CB15 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0A3F991E3233CB0048CB15 /* MapKit.framework */; };
 		EC0A3F9C1E323C540048CB15 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A3F9B1E323C540048CB15 /* LocationManager.swift */; };
+		EC0A3FA01E335C470048CB15 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC0A3F9F1E335C470048CB15 /* a.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EC0A3F8C1E3230C70048CB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0A3F991E3233CB0048CB15 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EC0A3F9B1E323C540048CB15 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EC0A3F9F1E335C470048CB15 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				EC0A3F6C1E3230C70048CB15 /* ViewController.swift */,
 				EC0A3F9B1E323C540048CB15 /* LocationManager.swift */,
 				EC0A3F6E1E3230C70048CB15 /* Main.storyboard */,
+				EC0A3F9F1E335C470048CB15 /* a.jpg */,
 				EC0A3F711E3230C70048CB15 /* Assets.xcassets */,
 				EC0A3F731E3230C70048CB15 /* LaunchScreen.storyboard */,
 				EC0A3F761E3230C70048CB15 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC0A3F751E3230C70048CB15 /* LaunchScreen.storyboard in Resources */,
+				EC0A3FA01E335C470048CB15 /* a.jpg in Resources */,
 				EC0A3F721E3230C70048CB15 /* Assets.xcassets in Resources */,
 				EC0A3F701E3230C70048CB15 /* Main.storyboard in Resources */,
 			);

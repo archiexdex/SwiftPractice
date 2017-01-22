@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,31 +19,41 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3e4-Pc-IAt">
-                                <rect key="frame" x="0.0" y="28" width="375" height="240"/>
+                                <rect key="frame" x="4" y="28" width="1024" height="939"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="gWC-qA-c34"/>
                                 </connections>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yta-zP-A3Q">
-                                <rect key="frame" x="136" y="318.5" width="103" height="30"/>
+                                <rect key="frame" x="461" y="1316" width="103" height="30"/>
                                 <state key="normal" title="AddAnnotation"/>
                                 <connections>
                                     <action selector="addAnn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="COG-rc-Ex9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8WN-8E-MLe">
+                                <rect key="frame" x="591" y="1316" width="83" height="30"/>
+                                <state key="normal" title="changeType"/>
+                                <connections>
+                                    <action selector="changeTypeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6cg-cR-UIO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Yta-zP-A3Q" secondAttribute="bottom" constant="20" id="10v-fu-VfA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8WN-8E-MLe" secondAttribute="bottom" constant="20" id="3Xx-rR-stj"/>
                             <constraint firstItem="3e4-Pc-IAt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="5kg-Xy-iB0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3e4-Pc-IAt" secondAttribute="bottom" constant="399" id="G3D-IT-ts3"/>
-                            <constraint firstItem="Yta-zP-A3Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ICu-do-aic"/>
                             <constraint firstItem="3e4-Pc-IAt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Rlr-dU-5cU"/>
-                            <constraint firstItem="Yta-zP-A3Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mr6-ZK-TSh"/>
+                            <constraint firstItem="8WN-8E-MLe" firstAttribute="leading" secondItem="Yta-zP-A3Q" secondAttribute="trailing" constant="27" id="XaE-pF-drN"/>
+                            <constraint firstItem="Yta-zP-A3Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="441" id="b8c-Fe-7E9"/>
                             <constraint firstItem="3e4-Pc-IAt" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="orp-k0-rMp"/>
+                            <constraint firstItem="Yta-zP-A3Q" firstAttribute="top" secondItem="3e4-Pc-IAt" secondAttribute="bottom" constant="349" id="pzJ-KW-FK9"/>
                         </constraints>
                     </view>
                     <connections>
