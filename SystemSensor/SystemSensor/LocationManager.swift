@@ -67,6 +67,7 @@ class LocationManager: NSObject {
         }
         let lati = nowLocation.coordinate.latitude
         let long = nowLocation.coordinate.longitude
+//        let alti = nowLocation.altitude
         
         return String().appendingFormat("(%3f,%3f)", lati, long)
     }
@@ -98,5 +99,13 @@ extension LocationManager : CLLocationManagerDelegate {
             self.nowPlaceMark = placeMarks?.first
         }
         
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
+        //
+        if newHeading.headingAccuracy < 0 {
+            print("QQ")
+        }
+        print(">>way is \(newHeading.magneticHeading) ")
     }
 }
