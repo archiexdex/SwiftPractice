@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECCFC30D1D98CE2A00D2AA99"
-               BuildableName = "Snack.app"
-               BlueprintName = "Snack"
-               ReferencedContainer = "container:Snack.xcodeproj">
+               BlueprintIdentifier = "ECD2493A1ED095D7008F2BB4"
+               BuildableName = "3DCube.app"
+               BlueprintName = "3DCube"
+               ReferencedContainer = "container:3DCube.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECCFC3241D98CE2A00D2AA99"
-               BuildableName = "SnackTests.xctest"
-               BlueprintName = "SnackTests"
-               ReferencedContainer = "container:Snack.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECCFC32F1D98CE2A00D2AA99"
-               BuildableName = "SnackUITests.xctest"
-               BlueprintName = "SnackUITests"
-               ReferencedContainer = "container:Snack.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECCFC30D1D98CE2A00D2AA99"
-            BuildableName = "Snack.app"
-            BlueprintName = "Snack"
-            ReferencedContainer = "container:Snack.xcodeproj">
+            BlueprintIdentifier = "ECD2493A1ED095D7008F2BB4"
+            BuildableName = "3DCube.app"
+            BlueprintName = "3DCube"
+            ReferencedContainer = "container:3DCube.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECCFC30D1D98CE2A00D2AA99"
-            BuildableName = "Snack.app"
-            BlueprintName = "Snack"
-            ReferencedContainer = "container:Snack.xcodeproj">
+            BlueprintIdentifier = "ECD2493A1ED095D7008F2BB4"
+            BuildableName = "3DCube.app"
+            BlueprintName = "3DCube"
+            ReferencedContainer = "container:3DCube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECCFC30D1D98CE2A00D2AA99"
-            BuildableName = "Snack.app"
-            BlueprintName = "Snack"
-            ReferencedContainer = "container:Snack.xcodeproj">
+            BlueprintIdentifier = "ECD2493A1ED095D7008F2BB4"
+            BuildableName = "3DCube.app"
+            BlueprintName = "3DCube"
+            ReferencedContainer = "container:3DCube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

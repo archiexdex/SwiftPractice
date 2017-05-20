@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Snack.xcscheme</key>
+		<key>3DCube.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ECCFC30D1D98CE2A00D2AA99</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>ECCFC3241D98CE2A00D2AA99</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>ECCFC32F1D98CE2A00D2AA99</key>
+		<key>ECD2493A1ED095D7008F2BB4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
